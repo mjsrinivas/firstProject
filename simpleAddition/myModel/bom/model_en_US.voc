@@ -1,0 +1,16 @@
+
+# kasand498.firstproject.simpleaddition.mymodel.MyData
+kasand498.firstproject.simpleaddition.mymodel.MyData#concept.label = myData
+kasand498.firstproject.simpleaddition.mymodel.MyData.MyData(double,double,double)#phrase.navigation = a new {myData} where {0, firstNumber} {1, result} {2, secondNumber}
+kasand498.firstproject.simpleaddition.mymodel.MyData.firstNumber#phrase.action = set the firstNumber of {this} to {firstNumber}
+kasand498.firstproject.simpleaddition.mymodel.MyData.firstNumber#phrase.addition_setter = add {firstNumber} to the firstNumber of {this}
+kasand498.firstproject.simpleaddition.mymodel.MyData.firstNumber#phrase.navigation = {firstNumber} of {this}
+kasand498.firstproject.simpleaddition.mymodel.MyData.firstNumber#phrase.subtraction_setter = subtract {firstNumber} from the firstNumber of {this}
+kasand498.firstproject.simpleaddition.mymodel.MyData.result#phrase.action = set the result of {this} to {result}
+kasand498.firstproject.simpleaddition.mymodel.MyData.result#phrase.addition_setter = add {result} to the result of {this}
+kasand498.firstproject.simpleaddition.mymodel.MyData.result#phrase.navigation = {result} of {this}
+kasand498.firstproject.simpleaddition.mymodel.MyData.result#phrase.subtraction_setter = subtract {result} from the result of {this}
+kasand498.firstproject.simpleaddition.mymodel.MyData.secondNumber#phrase.action = set the secondNumber of {this} to {secondNumber}
+kasand498.firstproject.simpleaddition.mymodel.MyData.secondNumber#phrase.addition_setter = add {secondNumber} to the secondNumber of {this}
+kasand498.firstproject.simpleaddition.mymodel.MyData.secondNumber#phrase.navigation = {secondNumber} of {this}
+kasand498.firstproject.simpleaddition.mymodel.MyData.secondNumber#phrase.subtraction_setter = subtract {secondNumber} from the secondNumber of {this}

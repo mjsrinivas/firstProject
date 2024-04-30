@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ilog.rules.studio.model.base:VariableSet xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:ilog.rules.studio.model.base="http://ilog.rules.studio/model/base.ecore" language="ARL">
+  <name>vars</name>
+  <uuid>41fe8734-82eb-4015-98ef-b11639425602</uuid>
+  <variables name="myData" type="kasand498.firstproject.simpleaddition.mymodel.MyData" initialValue="" verbalization="the Data" jsonName=""/>
+</ilog.rules.studio.model.base:VariableSet>

@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<com.ibm.rules.studio.model.decisionservice:Operation xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:com.ibm.rules.studio.model.decisionservice="http://com.ibm.rules.studio/model/decisionservice.ecore" rulesetName="myAdditionProject" usingRuleflow="true" ruleflowName="mainFlow" targetRuleProjectName="myAdditionProject">
+  <name>myAdditionProject</name>
+  <uuid>0b056e56-bb5a-45b7-8647-70d8f6b2c25d</uuid>
+  <referencedVariables variableName="myData" variableSetName="vars" direction="IN_OUT">
+    <variableSet href="../rules/vars.var#41fe8734-82eb-4015-98ef-b11639425602"/>
+  </referencedVariables>
+  <ruleflow href="../rules/mainFlow.rfl#134485d9-f68c-46f9-bce9-e1f1fa979bf5"/>
+  <targetRuleProject href="../../myAdditionProject#1439f384-e622-4422-b2d2-21b745b14218"/>
+</com.ibm.rules.studio.model.decisionservice:Operation>

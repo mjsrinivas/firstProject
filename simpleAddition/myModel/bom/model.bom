@@ -1,0 +1,30 @@
+
+package kasand498.firstproject.simpleaddition.mymodel;
+
+
+class MyData
+        property ads.typeId "2"
+        property com.fasterxml.jackson.annotation.JsonTypeName "myData"
+        #de.generated
+{
+    double firstNumber
+                property ads.attributeId "1"
+                property com.fasterxml.jackson.annotation.JsonProperty "firstNumber"
+                #update;
+    double result
+                property ads.attributeId "3"
+                property com.fasterxml.jackson.annotation.JsonProperty "result"
+                #update;
+    double secondNumber
+                property ads.attributeId "2"
+                property com.fasterxml.jackson.annotation.JsonProperty "secondNumber"
+                #update;
+    MyData(double firstNumber, double result, double secondNumber)
+                #autoExpand
+                #beanConstructor
+                property groups "BALA"
+                #prototype;
+    MyData()
+                #dataio.default;
+}
+

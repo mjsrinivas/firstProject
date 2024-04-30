@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ilog.rules.studio.model.brl:ActionRule xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:ilog.rules.studio.model.brl="http://ilog.rules.studio/model/brl.ecore">
+  <name>addtwonumbers</name>
+  <uuid>61ac4712-e91b-4d99-a68a-5c85eb0904dc</uuid>
+  <locale>en_US</locale>
+  <definition><![CDATA[if
+	true 
+then
+	set the result of 'the Data' to the firstNumber of 'the Data' + the secondNumber of 'the Data' ;]]></definition>
+</ilog.rules.studio.model.brl:ActionRule>
